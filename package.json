@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "webdriverio": "^8.16.15"
+  }
+}
