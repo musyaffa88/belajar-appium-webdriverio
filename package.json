@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha --no-timeouts test/FT_001_login.test.js"
+    "test": "mocha --no-timeouts tests/**/*.test.js"
   },
 
   "dependencies": {
