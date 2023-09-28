@@ -1,6 +1,6 @@
 const { expect } = require('chai')
 const setupDriver = require('../utils/setupDriver')
-const LoginPage = require('../pageobjects/LoginPage')
+const LoginPage = require('../pageobjoct - dummy/LoginPage')
 
 describe.skip('Login', function(){
     /** @type {WebdriverIO.Browser} */ let driver

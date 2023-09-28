@@ -9,11 +9,18 @@ describe.skip('your test story', function () {
 	before(async function () {
 		driver = await setupDriver()
 		yourPage = new YourPage(driver)
+		await driver.pause(5000)
 	})
 
-	it('your test case', async function () {
-		await yourPage.openPage()
-	})
+	describe('your test case', async function () {
+		it('expect result', async function () {
+			await yourPage.openPage()
+		})
+	} )
+
+	afterEach(async function(){
+        await driver.pause(2000)
+    })
 
 	after(async function () {
 		await driver.deleteSession()
