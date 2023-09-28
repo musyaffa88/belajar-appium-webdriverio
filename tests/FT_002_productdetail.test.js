@@ -5,7 +5,7 @@ const InventoryCommercePage = require('../pageobjects/InventoryCommercePage')
 const ProductDetailCommercePage = require('../pageobjects/ProductDetailCommercePage')
 const CartCommercePage = require('../pageobjects/CartCommercePage');
 
-describe.skip('FT_002_Detail Product Page', function () {
+describe('FT_002_Detail Product Page', function () {
 	/** @type {WebdriverIO.Browser} */ let driver
     /** @type {InventoryCommercePage} */ let inventoryCommercePage
 	/** @type {ProductDetailCommercePage} */ let productDetailCommercePage

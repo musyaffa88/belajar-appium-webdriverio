@@ -3,7 +3,7 @@ const setupDriver = require('../utils/setupDriver')
 const { afterEach } = require('mocha')
 const InventoryCommercePage = require('../pageobjects/InventoryCommercePage')
 
-describe.skip('FT_001_Inventory Page Test', function () {
+describe('FT_001_Inventory Page Test', function () {
 	/** @type {WebdriverIO.Browser} */ let driver
 	/** @type {InventoryCommercePage} */ let inventoryCommercePage
 
